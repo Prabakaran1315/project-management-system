@@ -10,3 +10,16 @@ php artisan key:generate
 php artisan migrate
 php artisan db:seed
 php artisan serve
+
+# Credentials
+# For Admin
+'email' : 'admin@example.com',
+'password': 'password',
+
+# For Manager
+'email' : 'manager@example.com',
+'password': 'password',
+
+# For Team Member
+'email' : 'member@example.com',
+'password': 'password',
